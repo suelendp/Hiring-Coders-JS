@@ -1,7 +1,6 @@
 body{
     background: #142032;
     font: normal 15pt arial;
-
 }
 
 header{
@@ -27,7 +26,6 @@ header h1{
 
 section{
     background: #363F4D;
-    /*background: #ff5500;*/
     border-radius: 10px;
     padding: 15px;
     width: 900px;
@@ -35,7 +33,6 @@ section{
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.425);
     font-weight: 400;
 }
-
 
 .text-muted {
     margin: 5px;
@@ -50,8 +47,7 @@ legend{
     text-align: center;
     border: 2px solid #e5e5e5;
     padding: 15px;
-    background-color: #142032;
-    
+    background-color: #142032;  
 }
 
 .form{
@@ -74,8 +70,6 @@ legend{
     margin-left: 0px;
     margin-top: 15px;
     margin-right: -5px;
-        
-
 }
 
 .form input{
@@ -86,7 +80,6 @@ legend{
     border-radius: 0px 5px 5px 0px;
     margin-top: 5px;
     color: #142032;
-
 }
 
 .input-group .form-control:last-child{
@@ -110,9 +103,6 @@ legend{
     margin-right: auto;
     margin-bottom: 1em;
     cursor: pointer;
-   
-    
-  
 }
 
 .form button:hover{
@@ -125,15 +115,12 @@ input::placeholder{
 }
 
 .campo{
-    /*background-color: #142032;*/
     width: 70%;
     padding: 5px;
     margin: 4px;
     color: #142032;
     font-size: 1em;
-    
 }
-
 
 #error{
     width: 100%;
@@ -158,8 +145,7 @@ input::placeholder{
     border: none;
     border-radius: 5px;
     margin-top: 10px;
-    margin-bottom: 5px;
-    
+    margin-bottom: 5px;  
 
 }
 
@@ -173,12 +159,16 @@ input::placeholder{
 }
 
 
+footer > img{
+    width: 70%;
+    margin: auto;
+    display: block;
+    padding: 25px;
+}
 
-
-footer{
-    margin: 15px;
+footer > p{
+    margin: 25px;
     color: #ff5500;
     text-align: center;
     font-style: italic;
-
 }
